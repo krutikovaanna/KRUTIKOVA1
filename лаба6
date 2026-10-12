@@ -1,0 +1,5 @@
+f = 'aabbcdd'
+for y in f:
+  if f.count(y)==1:
+    print(y)
+    break
