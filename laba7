@@ -1,4 +1,16 @@
 #11. Найти все пары (a, b) элементов с суммой, равной target. 
-target=input('Введите целые числа')
+target=int(input('Введите целые числа'))
 x = input()
 a=x.split()
+num=[]
+for p in a:
+  num.append(int(i))
+for i in range(len(num)):
+  for j in range(i+1,len(num)):
+      if num[i]+num[j]==target:
+        pair = (num[i], num[j])
+        found.append(pair)
+if len(found)>0:
+  print('результат')
+else:
+   print('результата нет')
