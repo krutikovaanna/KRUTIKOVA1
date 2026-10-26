@@ -1,0 +1,8 @@
+n = int(input('количество чисел '))
+jbl = []
+for n in range(n):
+    jbl.append(int(input('сами числа ')))
+print(jbl)
+minor = min(jbl)
+maxon = max(jbl)
+print(minor+maxon)
