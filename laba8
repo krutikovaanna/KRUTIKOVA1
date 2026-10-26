@@ -6,3 +6,4 @@ print(jbl)
 minor = min(jbl)
 maxon = max(jbl)
 print(minor+maxon)
+
